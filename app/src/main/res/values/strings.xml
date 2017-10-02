@@ -27,4 +27,6 @@
         <item>9,0</item>
         <item>10,0</item>
     </string-array>
+    <string name="colorPreference">br.edu.utfpr.alunos.poletto.sharedpreferences.COLOR_PREFERENCE</string>
+    <string name="bgColor" >BG_COLOR</string>
 </resources>
