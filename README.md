@@ -9,6 +9,6 @@ A repository for android study
 - Toast 			                    [OK]
 - Passar Valor Activity 	        [OK]
 - Retornar Valor Activity 	      [OK]
-- Criar e Tratar Evento de Menu   []
+- Criar e Tratar Evento de Menu   [OK]
 - Internacionalização 		        []
-- Shared Preferences 		          []
+- Shared Preferences 		          [OK]
