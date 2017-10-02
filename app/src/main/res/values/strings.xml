@@ -12,6 +12,9 @@
     <string name="radioBtn_txt1">Texto 1</string>
     <string name="radioBtn_txt2">Texto 2</string>
     <string name="radioBtn_txt3">Texto 3</string>
+    <string name="txtRed">Vermelho</string>
+    <string name="txtGreen">Verde</string>
+    <string name="txtBlue">Azul</string>
     <string-array name="grades_array">
         <item>1,0</item>
         <item>2,0</item>
