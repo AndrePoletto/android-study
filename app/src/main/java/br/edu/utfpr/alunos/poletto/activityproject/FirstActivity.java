@@ -1,5 +1,6 @@
 package br.edu.utfpr.alunos.poletto.activityproject;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class FirstActivity extends AppCompatActivity {
+
+    // Constant value for multiple Activities work
     public static final String NAME = "NAME";
 
     // Instantiates EditTexts
@@ -38,6 +41,29 @@ public class FirstActivity extends AppCompatActivity {
         intent.putExtra(NAME, message);
 
         // Starts a new Activity
-        startActivity(intent);
+        startActivityForResult(intent, SecondActivity.ASKSITUATION);
+    }
+
+    // This method is executed on Activity return
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        // Checks the second Activity return value and result_ok
+        if(requestCode == SecondActivity.ASKSITUATION && resultCode == Activity.RESULT_OK){
+            // Gets the Data of the Activity
+            Bundle bundle = data.getExtras();
+            // Gets situation value
+            String situation = bundle.getString(SecondActivity.SITUATION);
+            // Gets grade value
+            String grade = bundle.getString(SecondActivity.GRADE);
+            // Gets text value
+            String text = bundle.getString(SecondActivity.TEXT);
+            // Generates and show the toast with the data of text, grade and situation
+            Toast.makeText(this, grade + " " + situation + " " + text, Toast.LENGTH_LONG).show();
+        }
+        else{
+            // If the result don't matche the request code gives an Error toast
+            Toast.makeText(this, "Erro", Toast.LENGTH_LONG).show();
+        }
     }
 }

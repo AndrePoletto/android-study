@@ -7,4 +7,21 @@
     <string name="show_btn">Show Name</string>
     <string name="nextActivity_btn">Next Page</string>
     <string name="completeName_txt">Complete Name</string>
+    <string name="checkBoxSituation">Aproved</string>
+    <string name="goBackBtn">Back</string>
+    <string name="radioBtn_txt1">Texto 1</string>
+    <string name="radioBtn_txt2">Texto 2</string>
+    <string name="radioBtn_txt3">Texto 3</string>
+    <string-array name="grades_array">
+        <item>1,0</item>
+        <item>2,0</item>
+        <item>3,0</item>
+        <item>4,0</item>
+        <item>5,0</item>
+        <item>6,0</item>
+        <item>7,0</item>
+        <item>8,0</item>
+        <item>9,0</item>
+        <item>10,0</item>
+    </string-array>
 </resources>
