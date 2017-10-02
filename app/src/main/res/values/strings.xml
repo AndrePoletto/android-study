@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Activity Project</string>
+    <string name="firstName_txt">First Name</string>
+    <string name="lastName_txt">Last Name</string>
+    <string name="input_firstName" />
+    <string name="input_lastName" />
+    <string name="show_btn">Show Name</string>
+    <string name="nextActivity_btn">Next Page</string>
+    <string name="completeName_txt">Complete Name</string>
+</resources>
