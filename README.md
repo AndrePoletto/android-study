@@ -1,4 +1,4 @@
-# Android tudy
+# Android Study
 ### A repository for android study
 - [x] TextView 			               
 - [x] EditText 			                 
