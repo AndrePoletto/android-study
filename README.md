@@ -1,14 +1,14 @@
-# android-study
-A repository for android study
-- TextView 			                  [OK]
-- EditText 			                  [OK]
-- Button 			                    [OK]
-- CheckBox 			                  [OK]
-- Spinner 			                  [OK]
-- RadioButton 	                  [OK]
-- Toast 			                    [OK]
-- Passar Valor Activity 	        [OK]
-- Retornar Valor Activity 	      [OK]
-- Criar e Tratar Evento de Menu   [OK]
-- Internacionalização 		        []
-- Shared Preferences 		          [OK]
+# Android tudy
+### A repository for android study
+- [x] TextView 			               
+- [x] EditText 			                 
+- [x] Button 			                    
+- [x] CheckBox 			                  
+- [x] Spinner 			                  
+- [x] RadioButton
+- [x] Toast 			                    
+- [x] Passar Valor Activity
+- [x] Retornar Valor Activity 	      
+- [x] Criar e Tratar Evento de Menu
+- [ ] Internacionalização 		        
+- [x] Shared Preferences 		          
